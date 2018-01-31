@@ -114,6 +114,8 @@ AddOutputFilter chunkFilter
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Team Code" Type="Folder"/>
+		<Item Name="SubVI_Lifter_Teleop.vi" Type="VI" URL="../../2018PowerUpCodeHB/SubVI_Lifter_Teleop.vi"/>
+		<Item Name="Subvi_RobotLifter_Begin.vi" Type="VI" URL="../../2018PowerUpCodeHB/Subvi_RobotLifter_Begin.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
