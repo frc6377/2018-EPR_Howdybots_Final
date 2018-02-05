@@ -164,8 +164,73 @@ AddOutputFilter chunkFilter
 		<Property Name="target.WebServer.ViAccess" Type="Str">+*</Property>
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
-		<Item Name="2018NewPowerUpHB" Type="Folder" URL="..">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
+		<Item Name="2018NewPowerUpHB" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="Autonomous" Type="Folder" URL="../Autonomous">
+				<Property Name="NI.DISK" Type="Bool">true</Property>
+			</Item>
+			<Item Name="AutoScripts" Type="Folder">
+				<Item Name="one button press control subVI.vi" Type="VI" URL="../AutoScripts/one button press control subVI.vi"/>
+				<Item Name="test.csv" Type="Document" URL="../AutoScripts/test.csv"/>
+			</Item>
+			<Item Name="Begin" Type="Folder" URL="../Begin">
+				<Property Name="NI.DISK" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Finish" Type="Folder" URL="../Finish">
+				<Property Name="NI.DISK" Type="Bool">true</Property>
+			</Item>
+			<Item Name="FRC SimulatedRSC" Type="Folder">
+				<Item Name="ive" Type="Folder">
+					<Item Name="4in Perf Wheel.ive" Type="Document" URL="../FRC SimulatedRSC/ive/4in Perf Wheel.ive"/>
+					<Item Name="AXIS M1011.ive" Type="Document" URL="../FRC SimulatedRSC/ive/AXIS M1011.ive"/>
+					<Item Name="Devantech SRF05.ive" Type="Document" URL="../FRC SimulatedRSC/ive/Devantech SRF05.ive"/>
+					<Item Name="FRC - Body.ive" Type="Document" URL="../FRC SimulatedRSC/ive/FRC - Body.ive"/>
+					<Item Name="FRC2015.ive" Type="Document" URL="../FRC SimulatedRSC/ive/FRC2015.ive"/>
+					<Item Name="Honeywell HMC6343.ive" Type="Document" URL="../FRC SimulatedRSC/ive/Honeywell HMC6343.ive"/>
+					<Item Name="Sparkfun Atomic IMU.ive" Type="Document" URL="../FRC SimulatedRSC/ive/Sparkfun Atomic IMU.ive"/>
+				</Item>
+				<Item Name="stl" Type="Folder">
+					<Item Name="FRC2015.stl" Type="Document" URL="../FRC SimulatedRSC/stl/FRC2015.stl"/>
+				</Item>
+			</Item>
+			<Item Name="Locale computer" Type="Folder">
+				<Item Name="Test_AutoStateMachine.vi" Type="VI" URL="../Locale computer/Test_AutoStateMachine.vi"/>
+			</Item>
+			<Item Name="Teleop" Type="Folder" URL="../Teleop">
+				<Property Name="NI.DISK" Type="Bool">true</Property>
+			</Item>
+			<Item Name="SubVI_LiftyBoi_Teleop.vi" Type="VI" URL="../SubVI_LiftyBoi_Teleop.vi"/>
+			<Item Name=".gitattributes" Type="Document" URL="../.gitattributes"/>
+			<Item Name="2017 roboRIO Project.aliases" Type="Document" URL="../2017 roboRIO Project.aliases"/>
+			<Item Name="2018 roboRIO Project.aliases" Type="Document" URL="../2018 roboRIO Project.aliases"/>
+			<Item Name="2018NewPowerUpHB.aliases" Type="Document" URL="../2018NewPowerUpHB.aliases"/>
+			<Item Name="2018NewPowerUpHB.lvlps" Type="Document" URL="../2018NewPowerUpHB.lvlps"/>
+			<Item Name="Autonomous Independent.vi" Type="VI" URL="../Autonomous Independent.vi"/>
+			<Item Name="Autonomous Library.lvlib" Type="Library" URL="../Autonomous Library.lvlib"/>
+			<Item Name="begin drive train subVI.vi" Type="VI" URL="../begin drive train subVI.vi"/>
+			<Item Name="begin intake subVI.vi" Type="VI" URL="../begin intake subVI.vi"/>
+			<Item Name="Begin.vi" Type="VI" URL="../Begin.vi"/>
+			<Item Name="Disabled.vi" Type="VI" URL="../Disabled.vi"/>
+			<Item Name="drive enum.ctl" Type="VI" URL="../drive enum.ctl"/>
+			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
+			<Item Name="Finish.vi" Type="VI" URL="../Finish.vi"/>
+			<Item Name="FRC Simulated.xml" Type="Document" URL="../FRC Simulated.xml"/>
+			<Item Name="Periodic Tasks.vi" Type="VI" URL="../Periodic Tasks.vi"/>
+			<Item Name="ReadAuto.vi" Type="VI" URL="../ReadAuto.vi"/>
+			<Item Name="Robot Global Data.vi" Type="VI" URL="../Robot Global Data.vi"/>
+			<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
+			<Item Name="Robot Simulation Readme.html" Type="Document" URL="../Robot Simulation Readme.html"/>
+			<Item Name="stop joystick drift.vi" Type="VI" URL="../stop joystick drift.vi"/>
+			<Item Name="SubVI_ExecuteAuto_Auto.vi" Type="VI" URL="../SubVI_ExecuteAuto_Auto.vi"/>
+			<Item Name="Subvi_HowdyDrive_Teleop.vi" Type="VI" URL="../Subvi_HowdyDrive_Teleop.vi"/>
+			<Item Name="SubVI_HowdyDriveMotors.vi" Type="VI" URL="../SubVI_HowdyDriveMotors.vi"/>
+			<Item Name="SubVI_ParseCommand_Auto.vi" Type="VI" URL="../SubVI_ParseCommand_Auto.vi"/>
+			<Item Name="subVI_ReadFMS_teleop.vi" Type="VI" URL="../subVI_ReadFMS_teleop.vi"/>
+			<Item Name="Teleop Drive subVI.vi" Type="VI" URL="../Teleop Drive subVI.vi"/>
+			<Item Name="teleop Intake subVI.vi" Type="VI" URL="../teleop Intake subVI.vi"/>
+			<Item Name="Teleop.vi" Type="VI" URL="../Teleop.vi"/>
+			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
+			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 		</Item>
 		<Item Name="Team Code" Type="Folder"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -215,6 +280,7 @@ AddOutputFilter chunkFilter
 				<Item Name="CTRE_Phoenix_MotorControl_RefNumRegistrySet.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/CTRE_Phoenix_MotorControl_RefNumRegistrySet.vi"/>
 				<Item Name="CTRE_Phoenix_MotorControl_Set.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/CTRE_Phoenix_MotorControl_Set.vi"/>
 				<Item Name="CTRE_Phoenix_MotorControl_SetInverted.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/CTRE_Phoenix_MotorControl_SetInverted.vi"/>
+				<Item Name="CTRE_Phoenix_MotorControl_SetQuadraturePosition_Enhanced.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Sensor/CTRE_Phoenix_MotorControl_SetQuadraturePosition_Enhanced.vi"/>
 				<Item Name="CTRE_Phoenix_MotorControl_SetSelectedSensorPosition.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Sensor/CTRE_Phoenix_MotorControl_SetSelectedSensorPosition.vi"/>
 				<Item Name="CTRE_Phoenix_MotorControl_SetSensorPhase.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Sensor/CTRE_Phoenix_MotorControl_SetSensorPhase.vi"/>
 				<Item Name="CTRE_Phoenix_MotorControl_UpdateRefNum.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/CTRE_Phoenix_MotorControl_UpdateRefNum.vi"/>
@@ -684,6 +750,7 @@ AddOutputFilter chunkFilter
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="SubVI_LiftyBoi_Begin.vi" Type="VI" URL="../SubVI_LiftyBoi_Begin.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
@@ -697,11 +764,12 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_buildSpecName" Type="Str">FRC Robot Boot-up Deployment</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Public/Documents/Howdybots/2018NewPowerUpHB/Builds</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Builds</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
