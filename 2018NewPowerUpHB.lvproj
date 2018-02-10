@@ -173,12 +173,8 @@ AddOutputFilter chunkFilter
 				<Item Name="one button press control subVI.vi" Type="VI" URL="../AutoScripts/one button press control subVI.vi"/>
 				<Item Name="test.csv" Type="Document" URL="../AutoScripts/test.csv"/>
 			</Item>
-			<Item Name="Begin" Type="Folder" URL="../Begin">
-				<Property Name="NI.DISK" Type="Bool">true</Property>
-			</Item>
-			<Item Name="Finish" Type="Folder" URL="../Finish">
-				<Property Name="NI.DISK" Type="Bool">true</Property>
-			</Item>
+			<Item Name="Begin" Type="Folder"/>
+			<Item Name="Finish" Type="Folder"/>
 			<Item Name="FRC SimulatedRSC" Type="Folder">
 				<Item Name="ive" Type="Folder">
 					<Item Name="4in Perf Wheel.ive" Type="Document" URL="../FRC SimulatedRSC/ive/4in Perf Wheel.ive"/>
@@ -196,9 +192,7 @@ AddOutputFilter chunkFilter
 			<Item Name="Locale computer" Type="Folder">
 				<Item Name="Test_AutoStateMachine.vi" Type="VI" URL="../Locale computer/Test_AutoStateMachine.vi"/>
 			</Item>
-			<Item Name="Teleop" Type="Folder" URL="../Teleop">
-				<Property Name="NI.DISK" Type="Bool">true</Property>
-			</Item>
+			<Item Name="Teleop" Type="Folder"/>
 			<Item Name="SubVI_LiftyBoi_Teleop.vi" Type="VI" URL="../SubVI_LiftyBoi_Teleop.vi"/>
 			<Item Name=".gitattributes" Type="Document" URL="../.gitattributes"/>
 			<Item Name="2017 roboRIO Project.aliases" Type="Document" URL="../2017 roboRIO Project.aliases"/>
@@ -879,7 +873,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
