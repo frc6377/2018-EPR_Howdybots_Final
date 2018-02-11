@@ -857,7 +857,6 @@ AddOutputFilter chunkFilter
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="SubVI_LiftyBoi_Begin.vi" Type="VI" URL="../SubVI_LiftyBoi_Begin.vi"/>
-			<Item Name="SubVI_SpeedLimitMsgFW_Auto.vi" Type="VI" URL="../Autonomous/SubVI_SpeedLimitMsgFW_Auto.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
