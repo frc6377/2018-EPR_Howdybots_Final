@@ -275,8 +275,8 @@ AddOutputFilter chunkFilter
 			<Item Name="stop joystick drift.vi" Type="VI" URL="../stop joystick drift.vi"/>
 			<Item Name="SubVI_ExecuteAuto_Auto.vi" Type="VI" URL="../SubVI_ExecuteAuto_Auto.vi"/>
 			<Item Name="Subvi_HowdyDrive_Teleop.vi" Type="VI" URL="../Subvi_HowdyDrive_Teleop.vi"/>
-			<Item Name="SubVI_HowdyDriveMotors.vi" Type="VI" URL="../SubVI_HowdyDriveMotors.vi"/>
 			<Item Name="subVI_ReadFMS_teleop.vi" Type="VI" URL="../subVI_ReadFMS_teleop.vi"/>
+			<Item Name="SubVI_HowdyDriveMotors.vi" Type="VI" URL="../SubVI_HowdyDriveMotors.vi"/>
 			<Item Name="Teleop Drive subVI.vi" Type="VI" URL="../Teleop Drive subVI.vi"/>
 			<Item Name="teleop Intake subVI.vi" Type="VI" URL="../teleop Intake subVI.vi"/>
 			<Item Name="Teleop.vi" Type="VI" URL="../Teleop.vi"/>
@@ -291,6 +291,7 @@ AddOutputFilter chunkFilter
 		<Item Name="SubVI_LiftyBoi_Begin.vi" Type="VI" URL="../SubVI_LiftyBoi_Begin.vi"/>
 		<Item Name="SubVI_RampingDrive_TeleOp.vi" Type="VI" URL="../SubVI_RampingDrive_TeleOp.vi"/>
 		<Item Name="SubVI_ResetLifterEncoder_Auto.vi" Type="VI" URL="../SubVI_ResetLifterEncoder_Auto.vi"/>
+		<Item Name="SubVI_TogglyBoi2_Teleop.vi" Type="VI" URL="../SubVI_TogglyBoi2_Teleop.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -1042,7 +1043,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
