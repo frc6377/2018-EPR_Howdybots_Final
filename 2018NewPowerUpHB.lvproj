@@ -135,7 +135,6 @@
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Maxon Encoder.lvclass" Type="LVClass" URL="/&lt;instrlib&gt;/Maxon Encoder/HAIOL/Maxon Encoder.lvclass"/>
 			</Item>
-			<Item Name="SubVI_ParseCommand_Auto.vi" Type="VI" URL="../SubVI_ParseCommand_Auto.vi"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -153,6 +152,7 @@
 		<Property Name="host.ResponsivenessCheckPingTimeout" Type="UInt">1000</Property>
 		<Property Name="host.TargetCPUID" Type="UInt">8</Property>
 		<Property Name="host.TargetOSID" Type="UInt">8</Property>
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="target.cleanupVisa" Type="Bool">false</Property>
 		<Property Name="target.DoNotReboot" Type="Bool">true</Property>
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
@@ -292,6 +292,7 @@ AddOutputFilter chunkFilter
 		<Item Name="SubVI_RampingDrive_TeleOp.vi" Type="VI" URL="../SubVI_RampingDrive_TeleOp.vi"/>
 		<Item Name="SubVI_ResetLifterEncoder_Auto.vi" Type="VI" URL="../SubVI_ResetLifterEncoder_Auto.vi"/>
 		<Item Name="SubVI_TogglyBoi2_Teleop.vi" Type="VI" URL="../SubVI_TogglyBoi2_Teleop.vi"/>
+		<Item Name="SubVI_buttons_teleop.vi" Type="VI" URL="../SubVI_buttons_teleop.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
