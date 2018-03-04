@@ -227,8 +227,10 @@ AddOutputFilter chunkFilter
 				<Item Name="SubVI_AutoDrive_Auto.vi" Type="VI" URL="../Autonomous/SubVI_AutoDrive_Auto.vi"/>
 				<Item Name="SubVI_DisabledCode_auto.vi" Type="VI" URL="../Autonomous/SubVI_DisabledCode_auto.vi"/>
 				<Item Name="SubVI_DriveBackwards_Auto.vi" Type="VI" URL="../Autonomous/SubVI_DriveBackwards_Auto.vi"/>
+				<Item Name="SubVI_DriveForward_Auto.vi" Type="VI" URL="../Autonomous/SubVI_DriveForward_Auto.vi"/>
 				<Item Name="SubVI_DriveIntakeWheels_Teleop.vi" Type="VI" URL="../Autonomous/SubVI_DriveIntakeWheels_Teleop.vi"/>
 				<Item Name="SubVI_SpeedLimitMsgBW_Auto.vi" Type="VI" URL="../Autonomous/SubVI_SpeedLimitMsgBW_Auto.vi"/>
+				<Item Name="SubVI_SpeedLimitMsgFW_Auto.vi" Type="VI" URL="../Autonomous/SubVI_SpeedLimitMsgFW_Auto.vi"/>
 				<Item Name="SubVI_TurnL3ft_Auto.vi" Type="VI" URL="../Autonomous/SubVI_TurnL3ft_Auto.vi"/>
 				<Item Name="SubVI_TurnRight_Auto.vi" Type="VI" URL="../Autonomous/SubVI_TurnRight_Auto.vi"/>
 			</Item>
