@@ -261,7 +261,7 @@ AddOutputFilter chunkFilter
 			<Item Name="SubVI_RobotLifter_Teleop.vi" Type="VI" URL="../SubVI_RobotLifter_Teleop.vi"/>
 			<Item Name=".gitattributes" Type="Document" URL="../.gitattributes"/>
 			<Item Name="2017 roboRIO Project.aliases" Type="Document" URL="../2017 roboRIO Project.aliases"/>
-			<Item Name="Subvi_IntakeLiftRamping_Teleop.vi" Type="VI" URL="../Autonomous/Subvi_IntakeLiftRamping_Teleop.vi"/>
+			<Item Name="Subvi_JoystickRamping_Teleop.vi" Type="VI" URL="../Autonomous/Subvi_JoystickRamping_Teleop.vi"/>
 			<Item Name="2018 roboRIO Project.aliases" Type="Document" URL="../2018 roboRIO Project.aliases"/>
 			<Item Name="2018NewPowerUpHB.aliases" Type="Document" URL="../2018NewPowerUpHB.aliases"/>
 			<Item Name="2018NewPowerUpHB.lvlps" Type="Document" URL="../2018NewPowerUpHB.lvlps"/>
@@ -304,6 +304,7 @@ AddOutputFilter chunkFilter
 		<Item Name="SubVI_SolenoidPulse_TeleOp.vi" Type="VI" URL="../SubVI_SolenoidPulse_TeleOp.vi"/>
 		<Item Name="SubVI_IntakeArmToggle_TeleOp.vi" Type="VI" URL="../SubVI_IntakeArmToggle_TeleOp.vi"/>
 		<Item Name="SubVI_Intake(Code In Testing)_KeepDisabled.vi" Type="VI" URL="../SubVI_Intake(Code In Testing)_KeepDisabled.vi"/>
+		<Item Name="SubVI_DriveStraightning_Teleop.vi" Type="VI" URL="../Autonomous/SubVI_DriveStraightning_Teleop.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
