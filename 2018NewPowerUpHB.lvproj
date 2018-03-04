@@ -223,8 +223,16 @@ AddOutputFilter chunkFilter
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="2018NewPowerUpHB" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="Autonomous" Type="Folder" URL="../Autonomous">
-				<Property Name="NI.DISK" Type="Bool">true</Property>
+			<Item Name="Autonomous" Type="Folder">
+				<Item Name="SubVI_AutoDrive_Auto.vi" Type="VI" URL="../Autonomous/SubVI_AutoDrive_Auto.vi"/>
+				<Item Name="SubVI_DisabledCode_auto.vi" Type="VI" URL="../Autonomous/SubVI_DisabledCode_auto.vi"/>
+				<Item Name="SubVI_DriveBackwards_Auto.vi" Type="VI" URL="../Autonomous/SubVI_DriveBackwards_Auto.vi"/>
+				<Item Name="SubVI_DriveForward_Auto.vi" Type="VI" URL="../Autonomous/SubVI_DriveForward_Auto.vi"/>
+				<Item Name="SubVI_DriveIntakeWheels_Teleop.vi" Type="VI" URL="../Autonomous/SubVI_DriveIntakeWheels_Teleop.vi"/>
+				<Item Name="SubVI_SpeedLimitMsgBW_Auto.vi" Type="VI" URL="../Autonomous/SubVI_SpeedLimitMsgBW_Auto.vi"/>
+				<Item Name="SubVI_SpeedLimitMsgFW_Auto.vi" Type="VI" URL="../Autonomous/SubVI_SpeedLimitMsgFW_Auto.vi"/>
+				<Item Name="SubVI_TurnL3ft_Auto.vi" Type="VI" URL="../Autonomous/SubVI_TurnL3ft_Auto.vi"/>
+				<Item Name="SubVI_TurnRight_Auto.vi" Type="VI" URL="../Autonomous/SubVI_TurnRight_Auto.vi"/>
 			</Item>
 			<Item Name="AutoScripts" Type="Folder">
 				<Item Name="one button press control subVI.vi" Type="VI" URL="../AutoScripts/one button press control subVI.vi"/>
@@ -253,6 +261,7 @@ AddOutputFilter chunkFilter
 			<Item Name="SubVI_RobotLifter_Teleop.vi" Type="VI" URL="../SubVI_RobotLifter_Teleop.vi"/>
 			<Item Name=".gitattributes" Type="Document" URL="../.gitattributes"/>
 			<Item Name="2017 roboRIO Project.aliases" Type="Document" URL="../2017 roboRIO Project.aliases"/>
+			<Item Name="Subvi_IntakeLiftRamping_Teleop.vi" Type="VI" URL="../Autonomous/Subvi_IntakeLiftRamping_Teleop.vi"/>
 			<Item Name="2018 roboRIO Project.aliases" Type="Document" URL="../2018 roboRIO Project.aliases"/>
 			<Item Name="2018NewPowerUpHB.aliases" Type="Document" URL="../2018NewPowerUpHB.aliases"/>
 			<Item Name="2018NewPowerUpHB.lvlps" Type="Document" URL="../2018NewPowerUpHB.lvlps"/>
@@ -994,6 +1003,8 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_SerialPortClose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SerialPort/WPI_SerialPortClose.vi"/>
 				<Item Name="WPI_SerialPortGetBytesReceived.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SerialPort/WPI_SerialPortGetBytesReceived.vi"/>
 				<Item Name="FRIC_navX_Internal_USB_ProcessingLoop.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/_Processing Loop/FRIC_navX_Internal_USB_ProcessingLoop.vi"/>
+				<Item Name="FRIC_navX_DeviceNumbersTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/Get/_TypeDefs/FRIC_navX_DeviceNumbersTypeDef.ctl"/>
+				<Item Name="Z900_navX_ProtocolTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/Get/_TypeDefs/Z900_navX_ProtocolTypeDef.ctl"/>
 			</Item>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -1017,6 +1028,7 @@ AddOutputFilter chunkFilter
 			<Item Name="SubVI_ButtonToggle_Teleop.vi" Type="VI" URL="../SubVI_ButtonToggle_Teleop.vi"/>
 			<Item Name="SubVI_IntakePositions_teleop.vi" Type="VI" URL="../SubVI_IntakePositions_teleop.vi"/>
 			<Item Name="SubVI_IntakeReadEncoder_TeleOp.vi" Type="VI" URL="../SubVI_IntakeReadEncoder_TeleOp.vi"/>
+			<Item Name="Subvi_IntakeLiftPosition_Teleop.vi" Type="VI" URL="../Subvi_IntakeLiftPosition_Teleop.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
