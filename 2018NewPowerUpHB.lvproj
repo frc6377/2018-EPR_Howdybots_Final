@@ -298,7 +298,6 @@ AddOutputFilter chunkFilter
 		<Item Name="SubVI_EncoderBegin_Begin.vi" Type="VI" URL="../SubVI_EncoderBegin_Begin.vi"/>
 		<Item Name="SubVI_IntakePID_teleop.vi" Type="VI" URL="../SubVI_IntakePID_teleop.vi"/>
 		<Item Name="SubVI_RobotLifter_Begin.vi" Type="VI" URL="../SubVI_RobotLifter_Begin.vi"/>
-		<Item Name="SubVI_RampingDrive_TeleOp.vi" Type="VI" URL="../SubVI_RampingDrive_TeleOp.vi"/>
 		<Item Name="SubVI_ResetLifterEncoder_Auto.vi" Type="VI" URL="../SubVI_ResetLifterEncoder_Auto.vi"/>
 		<Item Name="SubVI_TogglyBoi2_Teleop.vi" Type="VI" URL="../SubVI_TogglyBoi2_Teleop.vi"/>
 		<Item Name="SubVI_buttons_teleop.vi" Type="VI" URL="../SubVI_buttons_teleop.vi"/>
@@ -309,6 +308,7 @@ AddOutputFilter chunkFilter
 		<Item Name="Subvi_IntakeLiftPosition_Teleop.vi" Type="VI" URL="../Subvi_IntakeLiftPosition_Teleop.vi"/>
 		<Item Name="SubVI_RampingFW+BW_Teleop.vi" Type="VI" URL="../SubVI_RampingFW+BW_Teleop.vi"/>
 		<Item Name="SubVI_FullRampDrive_Teleop.vi" Type="VI" URL="../SubVI_FullRampDrive_Teleop.vi"/>
+		<Item Name="SubVI_RampTesting_Teleop.vi" Type="VI" URL="../SubVI_RampTesting_Teleop.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -1032,6 +1032,7 @@ AddOutputFilter chunkFilter
 			</Item>
 			<Item Name="SubVI_ButtonToggle_Teleop.vi" Type="VI" URL="../SubVI_ButtonToggle_Teleop.vi"/>
 			<Item Name="SubVI_IntakeReadEncoder_TeleOp.vi" Type="VI" URL="../SubVI_IntakeReadEncoder_TeleOp.vi"/>
+			<Item Name="Subvi_VoltageRamping_Teleop.vi" Type="VI" URL="../Autonomous/Subvi_VoltageRamping_Teleop.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
