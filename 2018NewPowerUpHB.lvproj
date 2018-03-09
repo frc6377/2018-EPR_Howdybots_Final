@@ -223,8 +223,16 @@ AddOutputFilter chunkFilter
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="2018NewPowerUpHB" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="Autonomous" Type="Folder" URL="../Autonomous">
-				<Property Name="NI.DISK" Type="Bool">true</Property>
+			<Item Name="Autonomous" Type="Folder">
+				<Item Name="SubVI_AutoDrive_Auto.vi" Type="VI" URL="../Autonomous/SubVI_AutoDrive_Auto.vi"/>
+				<Item Name="SubVI_DisabledCode_auto.vi" Type="VI" URL="../Autonomous/SubVI_DisabledCode_auto.vi"/>
+				<Item Name="SubVI_DriveBackwards_Auto.vi" Type="VI" URL="../Autonomous/SubVI_DriveBackwards_Auto.vi"/>
+				<Item Name="SubVI_DriveForward_Auto.vi" Type="VI" URL="../Autonomous/SubVI_DriveForward_Auto.vi"/>
+				<Item Name="SubVI_DriveIntakeWheels_Teleop.vi" Type="VI" URL="../Autonomous/SubVI_DriveIntakeWheels_Teleop.vi"/>
+				<Item Name="SubVI_SpeedLimitMsgBW_Auto.vi" Type="VI" URL="../Autonomous/SubVI_SpeedLimitMsgBW_Auto.vi"/>
+				<Item Name="SubVI_SpeedLimitMsgFW_Auto.vi" Type="VI" URL="../Autonomous/SubVI_SpeedLimitMsgFW_Auto.vi"/>
+				<Item Name="SubVI_TurnL3ft_Auto.vi" Type="VI" URL="../Autonomous/SubVI_TurnL3ft_Auto.vi"/>
+				<Item Name="SubVI_TurnRight_Auto.vi" Type="VI" URL="../Autonomous/SubVI_TurnRight_Auto.vi"/>
 			</Item>
 			<Item Name="AutoScripts" Type="Folder">
 				<Item Name="one button press control subVI.vi" Type="VI" URL="../AutoScripts/one button press control subVI.vi"/>
@@ -253,6 +261,7 @@ AddOutputFilter chunkFilter
 			<Item Name="SubVI_RobotLifter_Teleop.vi" Type="VI" URL="../SubVI_RobotLifter_Teleop.vi"/>
 			<Item Name=".gitattributes" Type="Document" URL="../.gitattributes"/>
 			<Item Name="2017 roboRIO Project.aliases" Type="Document" URL="../2017 roboRIO Project.aliases"/>
+			<Item Name="Subvi_IntakeRamping_Teleop.vi" Type="VI" URL="../Autonomous/Subvi_IntakeRamping_Teleop.vi"/>
 			<Item Name="2018 roboRIO Project.aliases" Type="Document" URL="../2018 roboRIO Project.aliases"/>
 			<Item Name="2018NewPowerUpHB.aliases" Type="Document" URL="../2018NewPowerUpHB.aliases"/>
 			<Item Name="2018NewPowerUpHB.lvlps" Type="Document" URL="../2018NewPowerUpHB.lvlps"/>
@@ -269,8 +278,8 @@ AddOutputFilter chunkFilter
 			<Item Name="Periodic Tasks.vi" Type="VI" URL="../Periodic Tasks.vi"/>
 			<Item Name="SubVI_ReadAuto_TeleOp or Auto.vi" Type="VI" URL="../SubVI_ReadAuto_TeleOp or Auto.vi"/>
 			<Item Name="Robot Global Data.vi" Type="VI" URL="../Robot Global Data.vi"/>
-			<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 			<Item Name="Robot Simulation Readme.html" Type="Document" URL="../Robot Simulation Readme.html"/>
+			<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
 			<Item Name="SubVI_StopJoystickDrift_TeleOp.vi" Type="VI" URL="../SubVI_StopJoystickDrift_TeleOp.vi"/>
 			<Item Name="SubVI_ExecuteAuto_Auto.vi" Type="VI" URL="../SubVI_ExecuteAuto_Auto.vi"/>
 			<Item Name="SubVI_AdvancedHowdyDrive_TeleOp.vi" Type="VI" URL="../SubVI_AdvancedHowdyDrive_TeleOp.vi"/>
@@ -282,19 +291,24 @@ AddOutputFilter chunkFilter
 			<Item Name="SubVI_ParseCommand_Auto.vi" Type="VI" URL="../SubVI_ParseCommand_Auto.vi"/>
 			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
+			<Item Name="SubVI_IntakePositions_teleop.vi" Type="VI" URL="../SubVI_IntakePositions_teleop.vi"/>
 		</Item>
 		<Item Name="Team Code" Type="Folder"/>
 		<Item Name="SubVI_CloseEncoder_Finish.vi" Type="VI" URL="../SubVI_CloseEncoder_Finish.vi"/>
 		<Item Name="SubVI_EncoderBegin_Begin.vi" Type="VI" URL="../SubVI_EncoderBegin_Begin.vi"/>
 		<Item Name="SubVI_IntakePID_teleop.vi" Type="VI" URL="../SubVI_IntakePID_teleop.vi"/>
 		<Item Name="SubVI_RobotLifter_Begin.vi" Type="VI" URL="../SubVI_RobotLifter_Begin.vi"/>
-		<Item Name="SubVI_RampingDrive_TeleOp.vi" Type="VI" URL="../SubVI_RampingDrive_TeleOp.vi"/>
 		<Item Name="SubVI_ResetLifterEncoder_Auto.vi" Type="VI" URL="../SubVI_ResetLifterEncoder_Auto.vi"/>
 		<Item Name="SubVI_TogglyBoi2_Teleop.vi" Type="VI" URL="../SubVI_TogglyBoi2_Teleop.vi"/>
 		<Item Name="SubVI_buttons_teleop.vi" Type="VI" URL="../SubVI_buttons_teleop.vi"/>
 		<Item Name="SubVI_SolenoidPulse_TeleOp.vi" Type="VI" URL="../SubVI_SolenoidPulse_TeleOp.vi"/>
 		<Item Name="SubVI_IntakeArmToggle_TeleOp.vi" Type="VI" URL="../SubVI_IntakeArmToggle_TeleOp.vi"/>
 		<Item Name="SubVI_Intake(Code In Testing)_KeepDisabled.vi" Type="VI" URL="../SubVI_Intake(Code In Testing)_KeepDisabled.vi"/>
+		<Item Name="SubVI_DriveStraightning_Teleop.vi" Type="VI" URL="../Autonomous/SubVI_DriveStraightning_Teleop.vi"/>
+		<Item Name="Subvi_IntakeLiftPosition_Teleop.vi" Type="VI" URL="../Subvi_IntakeLiftPosition_Teleop.vi"/>
+		<Item Name="SubVI_RampingFW+BW_Teleop.vi" Type="VI" URL="../SubVI_RampingFW+BW_Teleop.vi"/>
+		<Item Name="SubVI_FullRampDrive_Teleop.vi" Type="VI" URL="../SubVI_FullRampDrive_Teleop.vi"/>
+		<Item Name="SubVI_RampTesting_Teleop.vi" Type="VI" URL="../SubVI_RampTesting_Teleop.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -994,6 +1008,8 @@ AddOutputFilter chunkFilter
 				<Item Name="WPI_SerialPortClose.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SerialPort/WPI_SerialPortClose.vi"/>
 				<Item Name="WPI_SerialPortGetBytesReceived.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/SerialPort/WPI_SerialPortGetBytesReceived.vi"/>
 				<Item Name="FRIC_navX_Internal_USB_ProcessingLoop.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/_Processing Loop/FRIC_navX_Internal_USB_ProcessingLoop.vi"/>
+				<Item Name="FRIC_navX_DeviceNumbersTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/Get/_TypeDefs/FRIC_navX_DeviceNumbersTypeDef.ctl"/>
+				<Item Name="Z900_navX_ProtocolTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/Get/_TypeDefs/Z900_navX_ProtocolTypeDef.ctl"/>
 			</Item>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -1015,8 +1031,8 @@ AddOutputFilter chunkFilter
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="SubVI_ButtonToggle_Teleop.vi" Type="VI" URL="../SubVI_ButtonToggle_Teleop.vi"/>
-			<Item Name="SubVI_IntakePositions_teleop.vi" Type="VI" URL="../SubVI_IntakePositions_teleop.vi"/>
 			<Item Name="SubVI_IntakeReadEncoder_TeleOp.vi" Type="VI" URL="../SubVI_IntakeReadEncoder_TeleOp.vi"/>
+			<Item Name="Subvi_VoltageRamping_Teleop.vi" Type="VI" URL="../Autonomous/Subvi_VoltageRamping_Teleop.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
