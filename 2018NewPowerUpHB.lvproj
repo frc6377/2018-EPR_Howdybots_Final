@@ -1033,6 +1033,7 @@ AddOutputFilter chunkFilter
 			<Item Name="SubVI_ButtonToggle_Teleop.vi" Type="VI" URL="../SubVI_ButtonToggle_Teleop.vi"/>
 			<Item Name="SubVI_IntakeReadEncoder_TeleOp.vi" Type="VI" URL="../SubVI_IntakeReadEncoder_TeleOp.vi"/>
 			<Item Name="Subvi_VoltageRamping_Teleop.vi" Type="VI" URL="../Autonomous/Subvi_VoltageRamping_Teleop.vi"/>
+			<Item Name="SubVI_IntakeWheels_teleop.vi" Type="VI" URL="../SubVI_IntakeWheels_teleop.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
