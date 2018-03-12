@@ -288,8 +288,8 @@ AddOutputFilter chunkFilter
 			<Item Name="SubVI_TeleOpDrive_TeleOp.vi" Type="VI" URL="../SubVI_TeleOpDrive_TeleOp.vi"/>
 			<Item Name="SubVI_TeleOpIntake_TeleOp.vi" Type="VI" URL="../SubVI_TeleOpIntake_TeleOp.vi"/>
 			<Item Name="Teleop.vi" Type="VI" URL="../Teleop.vi"/>
-			<Item Name="SubVI_ParseCommand_Auto.vi" Type="VI" URL="../SubVI_ParseCommand_Auto.vi"/>
 			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
+			<Item Name="SubVI_ParseCommand_Auto.vi" Type="VI" URL="../SubVI_ParseCommand_Auto.vi"/>
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
 			<Item Name="SubVI_IntakePositions_teleop.vi" Type="VI" URL="../SubVI_IntakePositions_teleop.vi"/>
 		</Item>
