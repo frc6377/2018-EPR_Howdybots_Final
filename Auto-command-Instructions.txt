@@ -1,0 +1,5 @@
+FW,distance(inches),speed(encoder ticks)
+BW,distance(inches),speed(encoder ticks)
+LT,angle,speed(encoder ticks)
+RT,angle,speed(encoder ticks)
+CubeShoot (set values all you need is the command)

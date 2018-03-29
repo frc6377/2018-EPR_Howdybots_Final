@@ -1,0 +1,15 @@
+When switch is straight ahead
+bw,121,4000
+cubeshoot
+fw,121,4000
+
+To put in side of switch
+BW,155,4000
+RT,80,2000
+bw,22,4000
+
+To cross and go closer to the 
+BW,110,4000
+LT,30,2000
+FW,120,4000
+lt,20,2000
