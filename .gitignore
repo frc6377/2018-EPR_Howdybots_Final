@@ -1,2 +1,16 @@
+# Libraries
+*.lvlibp
+*.llb
 
-2018NewPowerUpHB.aliases
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+
+# Metadata
+*.aliases
+*.lvlps
