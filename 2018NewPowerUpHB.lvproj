@@ -286,6 +286,7 @@ AddOutputFilter chunkFilter
 			<Item Name="SubVI_TeleOpDrive_TeleOp.vi" Type="VI" URL="../SubVI_TeleOpDrive_TeleOp.vi"/>
 			<Item Name="SubVI_TeleOpIntake_TeleOp.vi" Type="VI" URL="../SubVI_TeleOpIntake_TeleOp.vi"/>
 			<Item Name="Teleop.vi" Type="VI" URL="../Teleop.vi"/>
+			<Item Name="SubVI_EncoderBegin_Begin.vi" Type="VI" URL="../SubVI_EncoderBegin_Begin.vi"/>
 			<Item Name="SubVI_ParseCommand_Auto.vi" Type="VI" URL="../SubVI_ParseCommand_Auto.vi"/>
 			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 			<Item Name="Vision Processing.vi" Type="VI" URL="../Vision Processing.vi"/>
@@ -293,7 +294,6 @@ AddOutputFilter chunkFilter
 		</Item>
 		<Item Name="Team Code" Type="Folder"/>
 		<Item Name="SubVI_CloseEncoder_Finish.vi" Type="VI" URL="../SubVI_CloseEncoder_Finish.vi"/>
-		<Item Name="SubVI_EncoderBegin_Begin.vi" Type="VI" URL="../SubVI_EncoderBegin_Begin.vi"/>
 		<Item Name="SubVI_IntakePID_teleop.vi" Type="VI" URL="../SubVI_IntakePID_teleop.vi"/>
 		<Item Name="SubVI_RobotLifter_Begin.vi" Type="VI" URL="../SubVI_RobotLifter_Begin.vi"/>
 		<Item Name="SubVI_ResetLifterEncoder_Auto.vi" Type="VI" URL="../SubVI_ResetLifterEncoder_Auto.vi"/>
@@ -1012,6 +1012,10 @@ AddOutputFilter chunkFilter
 				<Item Name="FRIC_navX_Util_DecodeProtocol_Int32.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/_Util/Decode/FRIC_navX_Util_DecodeProtocol_Int32.vi"/>
 				<Item Name="FRIC_navX_DecodeRegisterLengthClusterTypeDef_.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/_TypeDefs/FRIC_navX_DecodeRegisterLengthClusterTypeDef_.ctl"/>
 				<Item Name="CTRE_Phoenix_MotorControl_SelectProfile Slot.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Closed Loop/CTRE_Phoenix_MotorControl_SelectProfile Slot.vi"/>
+				<Item Name="FRIC_navX_DeviceNumbersTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/Get/_TypeDefs/FRIC_navX_DeviceNumbersTypeDef.ctl"/>
+				<Item Name="Z900_navX_ProtocolTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/Get/_TypeDefs/Z900_navX_ProtocolTypeDef.ctl"/>
+				<Item Name="CTRE_Phoenix_MotorControl_ConfigSoftLimitThresholds.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Limit Switch/CTRE_Phoenix_MotorControl_ConfigSoftLimitThresholds.vi"/>
+				<Item Name="CTRE_Phoenix_MotorControl_ConfigSoftLimitEnables.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Limit Switch/CTRE_Phoenix_MotorControl_ConfigSoftLimitEnables.vi"/>
 			</Item>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
