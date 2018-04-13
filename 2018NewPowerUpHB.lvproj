@@ -29,9 +29,6 @@
 		<Item Name="Robot Simulation Readme.html" Type="Document" URL="../Robot Simulation Readme.html"/>
 		<Item Name="SubVI_ReadAuto_TeleOp or Auto.vi" Type="VI" URL="../SubVI_ReadAuto_TeleOp or Auto.vi"/>
 		<Item Name="SubVI_IntakeReadEncoder_TeleOp.vi" Type="VI" URL="../SubVI_IntakeReadEncoder_TeleOp.vi"/>
-		<Item Name="TestButtonPulse.vi" Type="VI" URL="../../2018-EPR_HowdyBot_final/TestButtonPulse.vi"/>
-		<Item Name="ShifterControlTest.vi" Type="VI" URL="../../../../Downloads/ButtonsAndControls/ShifterControlTest.vi"/>
-		<Item Name="ShifterControl.vi" Type="VI" URL="../../../../Downloads/ButtonsAndControls/ShifterControl.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Read Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Delimited Spreadsheet.vi"/>
