@@ -1017,6 +1017,8 @@ AddOutputFilter chunkFilter
 				<Item Name="FRIC_navX_DeviceNumbersTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/_TypeDefs/FRIC_navX_DeviceNumbersTypeDef.ctl"/>
 				<Item Name="Z900_navX_ProtocolTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/_TypeDefs/Z900_navX_ProtocolTypeDef.ctl"/>
 				<Item Name="CTRE_Phoenix_MotorControl_ConfigPeakOutput.vi" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Phoenix-LabVIEW/Motor Controller/Output Config/CTRE_Phoenix_MotorControl_ConfigPeakOutput.vi"/>
+				<Item Name="FRIC_navX_DeviceNumbersTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/Get/_TypeDefs/FRIC_navX_DeviceNumbersTypeDef.ctl"/>
+				<Item Name="Z900_navX_ProtocolTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Rock Robotics/WPI/ThirdParty/Sensors/navX/Get/_TypeDefs/Z900_navX_ProtocolTypeDef.ctl"/>
 			</Item>
 			<Item Name="FRC_NetworkCommunication.dll" Type="Document" URL="FRC_NetworkCommunication.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -1042,9 +1044,9 @@ AddOutputFilter chunkFilter
 			<Item Name="SubVI_IntakeWheels_teleop.vi" Type="VI" URL="../SubVI_IntakeWheels_teleop.vi"/>
 			<Item Name="SubVI_DisabledCode_auto.vi" Type="VI" URL="../Autonomous/SubVI_DisabledCode_auto.vi"/>
 			<Item Name="coerce_to_ramp.vi" Type="VI" URL="../SubVI_CoerceToRamp/coerce_to_ramp.vi"/>
-			<Item Name="sensitivity.vi" Type="VI" URL="../../../../Downloads/ButtonsAndControls/sensitivity.vi"/>
-			<Item Name="deadband.vi" Type="VI" URL="../../../../Downloads/ButtonsAndControls/deadband.vi"/>
-			<Item Name="joystick_axis_conditioner.vi" Type="VI" URL="../../../../Downloads/ButtonsAndControls/joystick_axis_conditioner.vi"/>
+			<Item Name="joystick_axis_conditioner.vi" Type="VI" URL="../SubVI_joystick_axis_conditioner/Downloads/ButtonsAndControls/joystick_axis_conditioner.vi"/>
+			<Item Name="deadband.vi" Type="VI" URL="../SubVI_joystick_axis_conditioner/Downloads/ButtonsAndControls/deadband.vi"/>
+			<Item Name="sensitivity.vi" Type="VI" URL="../SubVI_joystick_axis_conditioner/Downloads/ButtonsAndControls/sensitivity.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
