@@ -1,5 +1,5 @@
-Left Switch Auto
-L
+######## Left Switch Auto ########
+#### L ####
 start
 wt,250
 bw,157,6500
@@ -11,18 +11,18 @@ wt,250
 cubeshoot
 wt,250
 fw,28,6500
-R
+#### R ####
 bw,120,6500
 wt,1000
 fw,60,6500
 
 
-Right Switch Auto
-L
+######## Right Switch Auto ########
+#### L ####
 bw,120,6500
 wt,1000
 fw,60,6500
-R
+#### R ####
 start
 bw,157,6500
 wt,250		
@@ -36,8 +36,8 @@ fw,28,6500
 
 
 
-Y Auto
-L
+######## Y Auto ########
+#### L ####
 start
 bw,35,6500
 wt,250
@@ -48,14 +48,13 @@ wt,250
 rt,45,4500
 wt,250
 bw,30,6500
-wt,250
+wt,1000
 cubeshoot
 wt,250
 fw,70,6500
 wt,250
 rt,120,4500
-
-R
+#### R ####
 start
 bw,35,6500
 wt,250
@@ -66,7 +65,7 @@ wt,250
 lt,45,4500
 wt,250
 bw,35,6500
-wt,250
+wt,1000
 cubeshoot
 wt,250
 fw,70,6500
