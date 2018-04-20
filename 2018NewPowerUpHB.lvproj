@@ -265,12 +265,12 @@ AddOutputFilter chunkFilter
 			<Item Name="Autonomous Library.lvlib" Type="Library" URL="../Autonomous Library.lvlib"/>
 			<Item Name="SubVI_IntializeDrive_Begin.vi" Type="VI" URL="../SubVI_IntializeDrive_Begin.vi"/>
 			<Item Name="SubVI_InitializeIntake_Begin.vi" Type="VI" URL="../SubVI_InitializeIntake_Begin.vi"/>
-			<Item Name="Begin.vi" Type="VI" URL="../Begin.vi"/>
 			<Item Name="Disabled.vi" Type="VI" URL="../Disabled.vi"/>
 			<Item Name="Enum_DriveSelection_TeleOp.ctl" Type="VI" URL="../Enum_DriveSelection_TeleOp.ctl"/>
 			<Item Name="Elapsed Times.vi" Type="VI" URL="../Elapsed Times.vi"/>
 			<Item Name="Finish.vi" Type="VI" URL="../Finish.vi"/>
 			<Item Name="FRC Simulated.xml" Type="Document" URL="../FRC Simulated.xml"/>
+			<Item Name="Begin.vi" Type="VI" URL="../Begin.vi"/>
 			<Item Name="Periodic Tasks.vi" Type="VI" URL="../Periodic Tasks.vi"/>
 			<Item Name="SubVI_ReadAuto_TeleOp or Auto.vi" Type="VI" URL="../SubVI_ReadAuto_TeleOp or Auto.vi"/>
 			<Item Name="Robot Global Data.vi" Type="VI" URL="../Robot Global Data.vi"/>
@@ -1065,7 +1065,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{6782B190-04E1-4A41-93AB-3F357B35791E}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/home/lvuser/natinst/bin</Property>
-				<Property Name="Bld_version.build" Type="Int">30</Property>
+				<Property Name="Bld_version.build" Type="Int">31</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/home/lvuser/natinst/bin/startup.rtexe</Property>
