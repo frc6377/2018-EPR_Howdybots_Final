@@ -304,6 +304,7 @@ AddOutputFilter chunkFilter
 			<Item Name="SubVI_IntakePositions_teleop.vi" Type="VI" URL="../SubVI_IntakePositions_teleop.vi"/>
 			<Item Name="SubVI_ShifterControl.vi" Type="VI" URL="../SubVI_ShifterControl.vi"/>
 			<Item Name="SubVI_WaitNthLoops.vi" Type="VI" URL="../SubVI_WaitNthLoops.vi"/>
+			<Item Name="Constants.vi" Type="VI" URL="../Constants.vi"/>
 		</Item>
 		<Item Name="Team Code" Type="Folder"/>
 		<Item Name="SubVI_CloseEncoder_Finish.vi" Type="VI" URL="../SubVI_CloseEncoder_Finish.vi"/>
@@ -330,12 +331,12 @@ AddOutputFilter chunkFilter
 		<Item Name="SubVI_SolenoidOff_Teleop.vi" Type="VI" URL="../SubVI_SolenoidOff_Teleop.vi"/>
 		<Item Name="SubVI_StickyButton_Teleop.vi" Type="VI" URL="../SubVI_StickyButton_Teleop.vi"/>
 		<Item Name="SubVI_ToggleOnRise_Teleop.vi" Type="VI" URL="../SubVI_ToggleOnRise_Teleop.vi"/>
-		<Item Name="SubVI_InitSide.vi" Type="VI" URL="../../../Phoenix-Examples-LabVIEW/RemoteClosedLoop/SubVI_InitSide.vi"/>
-		<Item Name="SubVI_InitFollow.vi" Type="VI" URL="../../../Phoenix-Examples-LabVIEW/RemoteClosedLoop/SubVI_InitFollow.vi"/>
-		<Item Name="SubVI_initdrivetalon.vi" Type="VI" URL="../../../Phoenix-Examples-LabVIEW/RemoteClosedLoop/SubVI_initdrivetalon.vi"/>
+		<Item Name="SubVI_InitFollow.vi" Type="VI" URL="../SubVI_InitFollow.vi"/>
+		<Item Name="SubVI_initdrivetalon.vi" Type="VI" URL="../SubVI_initdrivetalon.vi"/>
 		<Item Name="TypeDef_GearParams.ctl" Type="VI" URL="../TypeDef_GearParams.ctl"/>
 		<Item Name="SubVI_InitSide.vi" Type="VI" URL="../SubVI_InitSide.vi"/>
 		<Item Name="SubVI_initPidgeon.vi" Type="VI" URL="../SubVI_initPidgeon.vi"/>
+		<Item Name="TypeDef_PIDFgains.ctl" Type="VI" URL="../TypeDef_PIDFgains.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -988,8 +989,6 @@ AddOutputFilter chunkFilter
 			<Item Name="joystick_axis_conditioner.vi" Type="VI" URL="../SubVI_joystick_axis_conditioner/Downloads/ButtonsAndControls/joystick_axis_conditioner.vi"/>
 			<Item Name="deadband.vi" Type="VI" URL="../SubVI_joystick_axis_conditioner/Downloads/ButtonsAndControls/deadband.vi"/>
 			<Item Name="sensitivity.vi" Type="VI" URL="../SubVI_joystick_axis_conditioner/Downloads/ButtonsAndControls/sensitivity.vi"/>
-			<Item Name="SubVI_initdrivetalon.vi" Type="VI" URL="../SubVI_initdrivetalon.vi"/>
-			<Item Name="SubVI_InitFollow.vi" Type="VI" URL="../SubVI_InitFollow.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
