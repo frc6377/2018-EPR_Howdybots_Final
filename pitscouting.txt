@@ -1,0 +1,24 @@
+scale/switch/vault
+  > followup how many cubes can you deliver in a match to switch/scale/vault 
+can you cross auto line 
+  > followup can you deliver any cubes to the switch/scale/vault in auto
+have you made any significant changes since your last competition (for contrasting ai data with pit scouting data)
+can you climb
+are you good at climbing on robots (us climbing 3310/118/624)
+can you lift other robots
+can you play defense
+drive train details
+coding language
+favorite mechanism???
+any issues???
+years as a team???
+
+
+
+
+
+??? = possible question maybe not nessasary.
+
+
+
+find delta of pit data and AI data?

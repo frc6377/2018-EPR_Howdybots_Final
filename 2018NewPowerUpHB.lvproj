@@ -338,6 +338,13 @@ AddOutputFilter chunkFilter
 		<Item Name="SubVI_initPidgeon.vi" Type="VI" URL="../SubVI_initPidgeon.vi"/>
 		<Item Name="TypeDef_PIDFgains.ctl" Type="VI" URL="../TypeDef_PIDFgains.ctl"/>
 		<Item Name="TypeDef_Refnums.ctl" Type="VI" URL="../TypeDef_Refnums.ctl"/>
+		<Item Name="SubVI_HowdyDriveDifferential.vi" Type="VI" URL="../SubVI_HowdyDriveDifferential.vi"/>
+		<Item Name="SubVI_HowdyArcade.vi" Type="VI" URL="../SubVI_HowdyArcade.vi"/>
+		<Item Name="Overflow Magnitude.vi" Type="VI" URL="../Overflow Magnitude.vi"/>
+		<Item Name="ScaleNative.vi" Type="VI" URL="../ScaleNative.vi"/>
+		<Item Name="CoerceLeftRight.vi" Type="VI" URL="../CoerceLeftRight.vi"/>
+		<Item Name="MoveToZero.vi" Type="VI" URL="../MoveToZero.vi"/>
+		<Item Name="SubVI_ScaleNativeTester.vi" Type="VI" URL="../SubVI_ScaleNativeTester.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -992,7 +999,6 @@ AddOutputFilter chunkFilter
 			</Item>
 			<Item Name="SubVI_ButtonToggle_Teleop.vi" Type="VI" URL="../SubVI_ButtonToggle_Teleop.vi"/>
 			<Item Name="SubVI_IntakeReadEncoder_TeleOp.vi" Type="VI" URL="../SubVI_IntakeReadEncoder_TeleOp.vi"/>
-			<Item Name="coerce_to_ramp.vi" Type="VI" URL="../SubVI_CoerceToRamp/coerce_to_ramp.vi"/>
 			<Item Name="joystick_axis_conditioner.vi" Type="VI" URL="../SubVI_joystick_axis_conditioner/Downloads/ButtonsAndControls/joystick_axis_conditioner.vi"/>
 			<Item Name="deadband.vi" Type="VI" URL="../SubVI_joystick_axis_conditioner/Downloads/ButtonsAndControls/deadband.vi"/>
 			<Item Name="sensitivity.vi" Type="VI" URL="../SubVI_joystick_axis_conditioner/Downloads/ButtonsAndControls/sensitivity.vi"/>
